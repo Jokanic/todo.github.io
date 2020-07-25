@@ -34,7 +34,7 @@ h2 {
 	background-color: rgba(255,255,255,0.3);
 	padding: 10px;
 }
-
+	
 .inputDiv input{
 	width: 350px;
 	padding: 15px;
@@ -44,8 +44,8 @@ h2 {
 }
 
 .inputDiv button{
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	padding: 5px;
 	border-radius: 25px;
 	border-color: none;
@@ -96,3 +96,41 @@ h2 {
 	color:lime;
 	margin-left: 0px;
 }
+
+
+/*media query*/
+
+@media screen and (max-width: 450px){
+		.inputDiv,.item {
+		width:300px;
+		height: auto;
+		background-color: rgba(255,255,255,0.3);
+		padding: 10px;
+		}
+
+		body{
+			background-image: linear-gradient(to right, cyan,blue);
+		}
+
+		.inputDiv input{
+			width: 250px;
+			height: 30px;
+			padding: 1px;
+			border-radius: 10px;
+		}
+
+		.inputDiv button{
+			width: 250px;
+			height: 25px;
+			padding: 5px;
+			margin-top:5px;
+			border-radius: 25px;
+			border-color: none;
+			border-width: 0px;
+			background-color: lime;
+
+		#h2{
+			font-size: 0.5rem;
+		}
+
+	}
